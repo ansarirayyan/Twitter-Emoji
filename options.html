@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Twitter-Emoji</title>
+<link rel="stylesheet" href="css/options.css">
+</head>
+<body>
+    <form>
+        <section>
+            <h3>域名黑名单 ( Blacklist )</h3>
+            <p>
+                <textarea name="blacklist"></textarea>
+            </p>
+        </section>
+        <section>
+            <p>
+                <label><input name="uselist" type="radio" value="0"> 启用黑名单 ( Enable blacklist )</label>
+            </p>
+            <p>
+                <label><input name="uselist" type="radio" value="1"> 启用白名单 ( Enable whitelist )</label>
+            </p>
+            <p>
+                <input type="submit" value="保存">
+            </p>
+            <p>&nbsp;</p>
+            <h3>提示 ( Tips )</h3>
+            <ul>
+                <li>每行一条域名，区分协议 <br/> One domain per line and distinguish protocols</li>
+                <li>默认启用黑名单 <br/> Default enabled blacklist</li>
+                <li>例如 (e.g.)：<br> <code>http://example.org</code> <br> <code>https://example.net</code> </li>
+            </ul>
+        </section>
+        <section>
+            <h3>域名白名单 ( Whitelist )</h3>
+            <p>
+                <textarea name="whitelist"></textarea>
+            </p>
+        </section>
+    </form>
+    <script src="js/options.js"></script>
+</body>
+</html>

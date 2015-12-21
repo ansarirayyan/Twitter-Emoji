@@ -1,0 +1,43 @@
+body {
+    font-family: -webkit-body;
+}
+form {
+    text-align: center;
+}
+section {
+    display: inline-block;
+    margin: 0 1em;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+}
+textarea {
+    width: 25em;
+    height: 35em;
+    padding: 0.5em;
+    resize: none;
+    box-sizing: border-box;
+}
+button {
+    font-family: -webkit-body;
+    font-weight: bolder;
+    margin-left: .5em;
+    padding: 0 .4em;
+    cursor: pointer;
+    color: #cecece;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: 0;
+    background-color: #fff;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+    margin-bottom: .5em;
+}
+.btn-enabled {
+    color: #fff;
+    border-color: #bbb;
+    background-color: #bbb;
+}
