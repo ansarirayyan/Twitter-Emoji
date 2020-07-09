@@ -5,7 +5,8 @@ Twitter Emoji for Chrome
 
 本扩展用于替换 Chrome 浏览器 Emoji 字符为 SVG 矢量图形，让 Chrome 支持 Emoji 显示。
 
-SVG文件和替换JS来自 `https://github.com/twitter/twemoji`
+SVG files come from [https://github.com/eosrei/twemoji-color-font/](https://github.com/eosrei/twemoji-color-font/).
+JS comes from [https://github.com/twitter/twemoji](https://github.com/twitter/twemoji)
 
 ## 安装使用
 
